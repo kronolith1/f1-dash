@@ -1,0 +1,6 @@
+pytelemetry.egg-info/
+.idea
+/libs/__pycache__/
+build/
+dist/
+.vscode/
