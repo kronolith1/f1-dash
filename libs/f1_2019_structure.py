@@ -30,12 +30,12 @@ class CarMotionData(ctypes.LittleEndianStructure):
         ('m_worldRightDirX', ctypes.c_uint16),
         ('m_worldRightDirY', ctypes.c_uint16),
         ('m_worldRightDirZ', ctypes.c_uint16),
-        ('m_gForceLateral', ctypes.c_float),  # Lateral G-Force component
-        ('m_gForceLongitudinal', ctypes.c_float),  # Longitudinal G-Force component
-        ('m_gForceVertical', ctypes.c_float),  # Vertical G-Force component
-        ('m_yaw', ctypes.c_float),  # Yaw angle in radians
-        ('m_pitch', ctypes.c_float),  # Pitch angle in radians
-        ('m_roll', ctypes.c_float)  # Roll angle in radians
+        ('m_gForceLateral', ctypes.c_float),
+        ('m_gForceLongitudinal', ctypes.c_float),
+        ('m_gForceVertical', ctypes.c_float),
+        ('m_yaw', ctypes.c_float),
+        ('m_pitch', ctypes.c_float),
+        ('m_roll', ctypes.c_float)
     ]
 
 class PacketMotionData(ctypes.LittleEndianStructure):
